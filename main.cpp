@@ -11,7 +11,14 @@ using namespace std;
 // ==================== Person Class Implementation =========================
 
 
-
+class Person {
+void Person :: Person(int i,string n) {
+    name = n;
+    id = i;
+}
+void Person::display(){
+cout<< this.id<<","<<this.name<<endl;
+}
 
 
 
