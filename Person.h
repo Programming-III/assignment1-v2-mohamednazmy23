@@ -16,7 +16,8 @@ void display();
 
 
 
-
+void getName();
+void getId();
 
 
 
