@@ -19,7 +19,7 @@ void Person :: Person(int i,string n) {
 void Person::display(){
 cout<< this.id<<","<<this.name<<endl;
 }
-
+}
 
 
 
