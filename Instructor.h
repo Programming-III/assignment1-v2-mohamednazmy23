@@ -20,10 +20,10 @@ void Instructor(int  i , string n,string d,int e);
 void display();
 
 
-void getDepartment();
-void getExperience();
-int setexperienceYears(int x);
-string setdepartment();
+string getDepartment();
+int getExperience();
+void setexperienceYears(int x);
+void setdepartment();
 
 
 
