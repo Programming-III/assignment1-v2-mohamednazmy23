@@ -6,11 +6,11 @@ using namespace std;
 //#write Instructor class here
 
 
-public :
+private :
 string department;
 int experienceYears;
 
-
+public:
 void Instructor();
 ~  Instructor();
 
@@ -22,7 +22,8 @@ void display();
 
 void getDepartment();
 void getExperience();
-
+int setexperienceYears(int x);
+string setdepartment();
 
 
 
