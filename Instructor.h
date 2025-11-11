@@ -6,11 +6,11 @@ using namespace std;
 //#write Instructor class here
 
 
-private :
+public :
 string department;
 int experienceYears;
 
-public:
+
 void Instructor();
 ~  Instructor();
 
