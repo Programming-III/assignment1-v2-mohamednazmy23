@@ -49,8 +49,16 @@ cout<< this.id<<","<<this.name<<","<<this.yearLevel<<","<<this.major<<endl;}}
     }
     void Instructor::display() {
         cout<<id<<","<<name<< department<<","<<experienceYears<<endl;
+  void setexperienceYears(int x){
+      experienceYears=x;
+void setdepartment(string y){
+    department=y;
     }
+    int  getexperienceYears(){
+          return experienceYears;
 }
+void  getdepartment(){
+          return department;}
 
 
 // ==================== Course Class Implementation ====================
