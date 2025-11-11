@@ -16,9 +16,10 @@ void display();
 
 
 
-void getName();
-void getId();
-
+string getName();
+int getId();
+void setName();
+void setId();
 
 
 
