@@ -8,7 +8,19 @@ using namespace std;
 
 
 
+private:
+string courseCode;
+string courseName;
+int maxStudents;
+Student* students;
+int currentStudent;
+public:
 
+void Course();
+~void Course();
+void Course(string c,string cn,int m,int c,Student* students);
+void addStudent();
+void displayCourseInfo();
 
 
 
