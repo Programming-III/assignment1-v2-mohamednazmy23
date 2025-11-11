@@ -20,7 +20,8 @@ void Instructor(int  i , string n,string d,int e);
 void display();
 
 
-
+void getDepartment();
+void getExperience();
 
 
 
