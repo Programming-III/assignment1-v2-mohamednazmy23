@@ -20,7 +20,7 @@ void Person::display(){
 cout<< this.id<<","<<this.name<<endl;
 }
 
-}
+};
 
 
 
@@ -35,7 +35,17 @@ major=m;
 }
 
 void Student :display(){
-cout<< this.id<<","<<this.name<<","<<this.yearLevel<<","<<this.major<<endl;}}
+cout<< this.Person.getid()<<","<<this.Person.getname()<<","<<this.yearLevel<<","<<this.major<<endl;}};
+  void Student:: setyearLevel(int x){
+     yearLevel=x;
+void Student:: setmajor(string y){
+    major=y;
+    }
+    int Student:: getexperienceYears(){
+          return experienceYears;
+}
+string Student:: getmajor(){
+          return major;}
 
 // ==================== Instructor Class Implementation ====================
 
@@ -49,7 +59,7 @@ cout<< this.id<<","<<this.name<<","<<this.yearLevel<<","<<this.major<<endl;}}
         Experience=e;
     }
     void Instructor::display() {
-        cout<<id<<","<<name<< department<<","<<experienceYears<<endl;
+        cout<< this.Person.getid()<<","<<this.Person.getname()<< department<<","<<experienceYears<<endl;
   void Instructor:: setexperienceYears(int x){
       experienceYears=x;
 void Instructor:: setdepartment(string y){
@@ -58,9 +68,9 @@ void Instructor:: setdepartment(string y){
     int Instructor:: getexperienceYears(){
           return experienceYears;
 }
-void Instructor:: getdepartment(){
+string Instructor:: getdepartment(){
           return department;}
-  }
+  };
 
 // ==================== Course Class Implementation ====================
 
