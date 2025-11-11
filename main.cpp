@@ -42,7 +42,7 @@ major=m;
 }
 
 void Student :display(){
-cout<< this.Person.getid()<<","<<this.Person.getname()<<","<<this.yearLevel<<","<<this.major<<endl;}};
+cout<< this.Person.getId()<<","<<this.Person.getName()<<","<<this.yearLevel<<","<<this.major<<endl;}};
   void Student:: setyearLevel(int x){
      yearLevel=x;
 void Student:: setmajor(string y){
@@ -66,7 +66,7 @@ string Student:: getmajor(){
         Experience=e;
     }
     void Instructor::display() {
-        cout<< this.Person.getid()<<","<<this.Person.getname()<< department<<","<<experienceYears<<endl;
+        cout<< this.Person.getId()<<","<<this.Person.getName()<< department<<","<<experienceYears<<endl;
   void Instructor:: setexperienceYears(int x){
       experienceYears=x;
 void Instructor:: setdepartment(string y){
