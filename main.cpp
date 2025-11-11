@@ -40,7 +40,17 @@ cout<< this.id<<","<<this.name<<","<<this.yearLevel<<","<<this.major<<endl;}}
 
 
 
-
+  class Instructor : public Person {
+    public:
+    void Instructor::Intructor(int i,string n,string d,int e) {
+        Person(i,n);
+        department=d;
+        Experience=e;
+    }
+    void Instructor::display() {
+        cout<<id<<","<<name<< department<<","<<experienceYears<<endl;
+    }
+}
 
 
 // ==================== Course Class Implementation ====================
