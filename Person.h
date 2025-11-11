@@ -5,10 +5,10 @@
 using namespace std;
 
 //#write Person class here
-private:
+public:
 string name;
 int id;
-public:
+
 void Person();
 ~void Person();
 void Person(int  i , string n);
