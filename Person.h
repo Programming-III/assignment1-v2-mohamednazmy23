@@ -16,8 +16,8 @@ void display();
 
 
 
-string getName();
-int getId();
+string getName(string i);
+int getId(int i);
 void setName();
 void setId();
 
