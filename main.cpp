@@ -19,6 +19,7 @@ void Person :: Person(int i,string n) {
 void Person::display(){
 cout<< this.id<<","<<this.name<<endl;
 }
+
 }
 
 
@@ -49,17 +50,17 @@ cout<< this.id<<","<<this.name<<","<<this.yearLevel<<","<<this.major<<endl;}}
     }
     void Instructor::display() {
         cout<<id<<","<<name<< department<<","<<experienceYears<<endl;
-  void setexperienceYears(int x){
+  void Instructor:: setexperienceYears(int x){
       experienceYears=x;
-void setdepartment(string y){
+void Instructor:: setdepartment(string y){
     department=y;
     }
-    int  getexperienceYears(){
+    int Instructor:: getexperienceYears(){
           return experienceYears;
 }
-void  getdepartment(){
+void Instructor:: getdepartment(){
           return department;}
-
+  }
 
 // ==================== Course Class Implementation ====================
 
