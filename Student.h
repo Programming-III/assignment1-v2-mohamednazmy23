@@ -5,10 +5,10 @@
 #include <string>
 #using namespace std;
 //#write student class here
-private :
+public :
 int yearLevel;
 string major;
-public:
+
 void Student ();
 ~ void Student();
 void Student(int i,string n,int y,string m);
