@@ -9,6 +9,9 @@ private:
 string name;
 int id;
 public:
+void Person();
+~void Person();
+void Person(int  i , string n);
 void display();
 
 
