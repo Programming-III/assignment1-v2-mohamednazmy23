@@ -19,7 +19,14 @@ void Person :: Person(int i,string n) {
 void Person::display(){
 cout<< this.id<<","<<this.name<<endl;
 }
-
+string Person::getName(){
+    return name
+int Person::getId(){
+    return id;
+void Person:: setName(string i){
+    name=i;
+void Person::setId(int i){
+    id=i;
 };
 
 
