@@ -26,10 +26,15 @@ cout<< this.id<<","<<this.name<<endl;
 
 // ==================== Student Class Implementation ====================
 
+class Student : public Person {
+void Student : Student( int i,string n,int y,string m){
+Student(i,n);
+yearLevel=y;
+major=m;
+}
 
-
-
-
+void Student :display(){
+cout<< this.id<<","<<this.name<<","<<this.yearLevel<<","<<this.major<<endl;}}
 
 // ==================== Instructor Class Implementation ====================
 
